@@ -1,0 +1,175 @@
+{
+    "workbench.colorTheme": "Material Theme",
+    "files.autoSave": "afterDelay",
+    "vim.sneak": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.hlsearch": true,
+    "vim.useCtrlKeys": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "j",
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ],
+    "vim.highlightedyank.enable": true,
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<C-l>"
+            ],
+            "commands": [
+                ":nohl"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "f"
+            ],
+            "commands": [
+                "workbench.action.showCommands",
+            ]
+        },
+        {
+            "before": [
+                "o"
+            ],
+            "after": [
+                "o",
+                "<Esc>"
+            ]
+        },
+        {
+            "before": [
+                "c"
+            ],
+            "after": [
+                "c",
+                "<Esc>"
+            ]
+        },
+        {
+            "before": [
+                "d"
+            ],
+            "after": [
+                "\"",
+                "_",
+                "d"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "j"
+            ],
+            "after": [
+                "j",
+                "j",
+                "j",
+                "j",
+                "j",
+                "j",
+                "j",
+                "j",
+                "j",
+                "j",
+                "j",
+                "j",
+                "j",
+                "j",
+                "j",
+                "j"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "k"
+            ],
+            "after": [
+                "k",
+                "k",
+                "k",
+                "k",
+                "k",
+                "k",
+                "k",
+                "k",
+                "k",
+                "k",
+                "k",
+                "k",
+                "k",
+                "k",
+                "k",
+                "k",
+                "k",
+                "k"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "h"
+            ],
+            "after": [
+                "0"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "l"
+            ],
+            "after": [
+                "$"
+            ]
+        }
+    ],
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "p"
+            ],
+            "after": [
+                "p",
+                "g",
+                "v",
+                "y"
+            ]
+        },
+        {
+            "before": [
+                "d"
+            ],
+            "after": [
+                "\"",
+                "_",
+                "d"
+            ]
+        },
+        {
+            "before": [
+                "~"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        },
+    ],
+    "[cpp]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools",
+    },
+    "editor.suggest.shareSuggestSelections": true,
+    "editor.tabCompletion": "on",
+    "editor.formatOnSave": true,
+    "C_Cpp.updateChannel": "Insiders",
+    "cmake.configureOnOpen": true
+}
